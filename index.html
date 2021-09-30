@@ -4,12 +4,192 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Cofee</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800&family=Fraunces:wght@900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://col-css.netlify.app/css/column.css">
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+  <section id="hero">
+    <header class="site-header">
+      <div class="container">
+        <div class="header">
+          <a href="index.html">
+            <img class="header__logo" src="img/home/logo.svg" alt="logo">
+          </a>
+          <input type="checkbox" name="menu-check" id="menuCheck">
+          <label class="menu__label" for="menuCheck">
+              <i class='bx bx-menu' id="open"></i>
+              <i class='bx bx-x' id="close"></i>
+          </label>
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link text" href="index.html">home</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link text" href="index.html">about us</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link text" href="index.html">create your plan</a>
+            </li>
+          </ul>
+        </div>
+        <div class="hero__des">
+          <div class="inner-container">
+            <div class="hero__des-sec">
+              <h2 class="hero__title title">Great coffee made simple.</h2>
+              <p class="hero__text text">Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
+              <a class="hero__btn btn" href="#">Create your plan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </section>
+
+
+  <section class="our">
+    <div class="container">
+      <div class="inner-container">
+        <div class="collection">
+          <ul class="collection__list">
+            <li class="collection__item">
+              <div class="collection__des">
+                <h2 class="collection__title title">Gran Espresso</h2>
+                <p class="collection__text text">Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
+              </div>
+            </li>
+            <li class="collection__item">
+              <div class="collection__des">
+                <h2 class="collection__title title">Planalto</h2>
+                <p class="collection__text text">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</p>
+              </div>
+            </li>
+            <li class="collection__item">
+              <div class="collection__des">
+                <h2 class="collection__title title">Piccollo</h2>
+                <p class="collection__text text">Mild and smooth blend featuring notes of toasted almond and dried cherry.</p>
+              </div>
+            </li>
+            <li class="collection__item">
+              <div class="collection__des">
+                <h2 class="collection__title title">Danche</h2>
+                <p class="collection__text text">Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="choose">
+    <div class="container">
+      <div class="choose-des">
+        <h2 class="choose-des__title title">Why choose us?</h2>
+        <p class="choose-des__text text">A large part of our role is choosing which particular coffees will be featured in our range. This means working closely with the best coffee growers to give you a more impactful experience on every level.</p>
+        <div class="inner-container">
+          <div class="choose-sec">
+            <ul class="choose-sec__list">
+              <li class="choose-sec__item">
+                <div class="choose-des__sec">
+                  <h3 class="choose-sec__title title">Best quality</h3>
+                  <p class="choose-sec__text text">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+                </div>
+              </li>
+              <li class="choose-sec__item">
+                <div class="choose-des__sec">
+                  <h3 class="choose-sec__title title">Best quality</h3>
+                  <p class="choose-sec__text text">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+                </div>
+              </li>
+              <li class="choose-sec__item">
+                <div class="choose-des__sec">
+                  <h3 class="choose-sec__title title">Best quality</h3>
+                  <p class="choose-sec__text text">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="work">
+    <div class="container">
+      <div class="inner-container description">
+        <h3 class="work__title">How it works</h3>
+        <div class="work__line-sec">
+          <span class="work__circle"></span>
+          <span class="work__line"></span>
+          <span class="work__circle"></span>
+          <span class="work__line"></span>
+          <span class="work__circle"></span>
+        </div>
+        <ul class="work__list">
+          <li class="work__item">
+            <h2 class="work__title-big title">01</h2>
+            <h3 class="work__subtitle title">Pick your coffee</h3>
+            <p class="work__text text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+          </li>
+          <li class="work__item">
+            <h2 class="work__title-big title">02</h2>
+            <h3 class="work__subtitle title">Choose the frequency</h3>
+            <p class="work__text text">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
+          </li>
+          <li class="work__item">
+            <h2 class="work__title-big title">03</h2>
+            <h3 class="work__subtitle title">Receive and enjoy!</h3>
+            <p class="work__text text">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
+          </li>
+        </ul>
+        <a class="work__btn btn" href="#">Create your plan</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-sec">
+        <div class="inner-container">
+          <div class="footer-des">
+            <a href="index.html">
+              <img class="footer__logo" src="img/home/footer-logo.svg" alt="logo">
+            </a>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link text" href="index.html">home</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link text" href="index.html">about us</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link text" href="index.html">create your plan</a>
+              </li>
+            </ul>
+            <div class="social">
+              <ul class="social__list">
+                <li class="social__item">
+                  <a class="social__link text" href="#"><i class='social__icon bx bxl-facebook-square'></i></a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link text" href="#"><i class='social__icon bx bxl-twitter' ></i></a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link text" href="#"><i class='social__icon bx bxl-instagram' ></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
