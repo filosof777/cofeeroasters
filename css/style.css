@@ -508,7 +508,7 @@
 
   .choose-sec__list {
     bottom: -50%;
-    left: 35px;
+    left: 0px;
     margin: 0 auto;
     grid-template-columns: repeat(1, 573px);
     justify-content: center;
